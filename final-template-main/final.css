@@ -12,8 +12,8 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: darkgreen;
-	color: white;
+	background-color: white;
+	color: black;
 }
 h4 {
 	font-style: italic;
@@ -46,7 +46,9 @@ img{
  	margin-top: 30px;
  }
  iframe {
+ 	float: right;
  	min-width: 90%;
- 	margin-right: 10px;
+ 	margin-right: 20px;
+ 	margin-left: 20px;
  }
 }
