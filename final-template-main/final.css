@@ -35,6 +35,14 @@ img{
 	margin-left: 5%;
 }
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
@@ -44,11 +52,21 @@ img{
  	margin-left: 10px;
  	margin-bottom: 30px;
  	margin-top: 30px;
- }
+  }
  iframe {
  	float: right;
  	min-width: 90%;
  	margin-right: 20px;
  	margin-left: 20px;
+ 	border: 2px solid black;
  }
+
+ .footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+	border: 2px solid black;
+}
+
 }
